@@ -16,7 +16,7 @@ const ManageUsers = () => {
   const navigate = useNavigate();
   
     // Get API URL from environment variable
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000';
+const API_URL = import.meta.env.VITE_API_URL || 'https://newest-backend-1.onrender.com';
 
 
   useEffect(() => {
